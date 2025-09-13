@@ -2,7 +2,7 @@ import telebot
 import subprocess
 
 # Replace with your bot token
-BOT_TOKEN = "8056620144:AAG3GUpQhZVEBlmYTzj07XBGlJ-VtF-PvlA"
+BOT_TOKEN = "8056620144:AAF2wD0mAnzKxl9LRFjxmvm7vHncGjaKC8g"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['attack'])
