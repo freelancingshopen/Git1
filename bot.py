@@ -20,7 +20,7 @@ def handle_attack(message):
         
         # Execute the binary
         bot.reply_to(message, f"🚀 Attack started on {target}:{port} for {duration} seconds")
-        subprocess.run(f"go run go.go {target} {port} {duration} ", shell=True)
+        subprocess.run(f"./gp {target} {port} {duration} ", shell=True)
         bot.reply_to(message, "✅ Attack completed successfully")
         
     except Exception as e:
